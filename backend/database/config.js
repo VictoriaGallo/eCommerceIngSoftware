@@ -5,7 +5,7 @@ const dbConnection = async() => {
         mongoose.connect(process.env.DB_CONNECTION, {
             autoIndex: true
         });
-        console.log('Conectado a Base de Datos')
+        console.log('Conexion exitosa a la base de datos.');
     }catch(error){
         console.log(error)
         throw new Error ('Error al conectar con la BBDD');
