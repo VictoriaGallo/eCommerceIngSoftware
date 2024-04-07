@@ -1,6 +1,7 @@
+const mongoose = require('mongoose');
 const { Schema, model } = require('mongoose');
 
-const categoriaSchema = Schema({
+const categoriaSchema = new mongoose.Schema({
     identificador: {
         type: String,
         require: true,
@@ -18,4 +19,5 @@ const categoriaSchema = Schema({
     }
 });
 
-module.exports = model('categoria',categoriaSchema);
+const categoria = mongoose.model('categoria', categoriaSchema);
+module.export = mongoose.model('categoria', categoriaSchema) ;

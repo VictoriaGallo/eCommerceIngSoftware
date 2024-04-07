@@ -17,4 +17,5 @@ tareaSchema.method('toJSON', function () {
     return object;
 });
 
-module.exports = model('tarea',tareaSchema);
+const tarea = model('tarea',tareaSchema);
+module.export = model('tarea',tareaSchema) ;
