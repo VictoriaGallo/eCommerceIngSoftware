@@ -1,7 +1,7 @@
 # Proyecto de Ingeniería de Software I
 ## Tienda de personalización de artículos en línea
 Integrantes:
-- Laura Gallo
+- Laura Gallo[@VictoriaGallo](https://github.com/VictoriaGallo)
 - Eduardo Acosta [@eduardoacost](https://github.com/eduardoacost)
 - Jean Pool Esguerra [@JeanEsg](https://github.com/JeanEsg)
 - Felipe Plata [@Juanxo17](https://github.com/Juanxo17)
